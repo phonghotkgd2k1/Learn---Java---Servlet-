@@ -1,7 +1,5 @@
 package com.phonggd2k1.model;
 
-import java.sql.Timestamp;
-
 public class NewModel extends AbstractModel {
 
 	private String title;
