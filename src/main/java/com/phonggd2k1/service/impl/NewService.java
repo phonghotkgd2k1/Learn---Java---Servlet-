@@ -22,5 +22,11 @@ public class NewService implements INewService {
 		Long newID = newDao.save(newModel);
 		return newDao.findOne(newID);
 	}
+	@Override
+	public NewModel update(NewModel updateNew) {
+		NewModel oldNew = newDao.findOne(updateNew.getId());
+		
+		return null;
+	}
 
 }
